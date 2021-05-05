@@ -1,0 +1,103 @@
+.navegacao {
+    display: grid;
+    grid-template-columns: 20% 20% 25% 4% 7% 15% 4% 4%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.logo {
+   display: grid;
+   grid-template-columns: 5%;
+   border-right: solid 1px black;
+}
+.logo img {
+    width: 200px;
+    height: 50px;
+}
+
+.central {
+    display: grid;
+    margin-left: 5px;
+    margin-right: 0px;
+   
+    /*grid-template-columns: 25% 30% 5% 15% 20% 5% 5%;*/
+}
+
+.central span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.central img {
+    width: 20px;
+    height: 20px;
+ 
+}
+
+.buscar {
+    display: grid;
+    margin-left: 0px;
+}
+
+.buscar input {
+    border-radius: 30px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.location {
+    display: grid;
+}
+
+.location img {
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.location-text {
+    display: grid;
+}
+
+.location-text span {
+    font-size: 8pt;
+}
+
+.button-area-cliente {
+    display: grid;
+}
+
+.button-area-cliente a {
+    background-color: #FF7602;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.icon-facebook {
+    display: grid;
+}
+
+.icon-facebook img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.icon-instagram {
+    display: grid;
+}
+.icon-instagram img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
