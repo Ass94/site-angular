@@ -1,5 +1,6 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 .slide {
@@ -11,20 +12,56 @@
 }
 
 .suporte {
+    display: grid;
+    grid-template-columns: 8% 50% 32%;
     background-color: #0046F0;
-
 }
 
-.suporte span {
+.suporte-text {
+    margin-top: 20px;
+}
+
+.suporte-text span {
     font-size: 1.8rem;
     color: white;
-    margin-top: 30px;
 }
 
 .suporte img {
-    width: 30px;
-    height: 30px;
-    color: white;
+    width: 60px;
+    height: 60px;
     margin-left: 50px;
-    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.suporte p {
+    color: white;
+    margin-top: 0px;
+}
+
+.suporte-bloco {
+    margin-top: 20px;
+}
+.suporte-contato {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 2px white;
+    padding: 4px;
+    height: 40px;
+   
+}
+
+.suporte-contato input {
+    border: 0;
+    color: black;
+    outline: 0;
+    width: 380px;
+}
+
+.suporte-contato button {
+    background-color: #FF7602;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 10px;
 }
