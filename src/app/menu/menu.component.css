@@ -43,6 +43,7 @@
 }
 
 .buscar input {
+    border: solid 1px #D3D3D3;
     border-radius: 30px;
     height: 25px;
     margin-top: 5px;
