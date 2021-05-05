@@ -102,3 +102,16 @@
     height: 20px;
     margin-top: 5px;
 }
+
+.navegacao-items {
+    display: grid;
+    grid-template-columns: 12% 12% 12% 19% 12% 19%;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+
+.navegacao-items a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
