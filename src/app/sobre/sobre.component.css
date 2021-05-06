@@ -10,7 +10,7 @@
 
 .sobre-rigth {
     display: grid;
-    grid-template-rows: 40% 20% 40%;
+    grid-template-rows: 50% 30% 20%;
     margin-top: 10px;
     margin-left: 50px;
 }
@@ -41,27 +41,28 @@
     border: solid 1px #D3D3D3;
     border-radius: 10px;
     width: 80%;
+    height: 80%;
 }
 
 .sobre-rigth-middle-left img {
     width: 100px;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 20%;
     margin-left: 20px;
 }
 
 .sobre-rigth-middle-rigth {
-    margin-top: 15px;
+    margin-top: 5%;
 }
 
 .sobre-rigth-bottom {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 60px;
+    margin-top: 2%;
 }
 
 .sobre-rigth-bottom-top {
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 .sobre-rigth-bottom-top button {
@@ -79,7 +80,7 @@
 }
 
 .sobre-rigth-bottom-bottom  {
-    margin-top: 40px;
+    margin-top: 3%;
 }
 
 .sobre-rigth-bottom-bottom img {
