@@ -42,13 +42,15 @@
     border-radius: 10px;
     width: 80%;
     height: 80%;
+    padding: 2%;
 }
 
 .sobre-rigth-middle-left img {
     width: 100px;
     height: 100px;
-    margin-top: 20%;
-    margin-left: 20px;
+    margin-top: 18%;
+    margin-left: 5%;
+    margin-right: 3%;
 }
 
 .sobre-rigth-middle-rigth {
