@@ -1,0 +1,14 @@
+.principal {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.principal-left {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.principal-left img {
+    width: 60px;
+    height: 60px;
+}
+

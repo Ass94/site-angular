@@ -76,6 +76,39 @@
 
 .principal-conteudo-rigth hr {
     width: 90%;
-    border: solid 2px #FF7602;;
+    border: solid 2px #FF7602;
 }
+
+.button-assinar {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    border: solid 2px #FF7602;
+    font-weight: 600;
+}
+
+.button-assinar img {
+   margin-top: 2%;
+   width: 20px;
+   height: 20px;
+}
+
+.button-assinar-middle {
+    background-color: #0046F0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    border: solid 2px #0046F0;
+    color: white;
+    font-weight: 600;
+}
+
+.button-assinar-middle img {
+    margin-top: 2%;
+    width: 20px;
+    height: 20px;
+ }
 
