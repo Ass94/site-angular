@@ -7,6 +7,11 @@
     margin-left: 10%;
     margin-top: 10%;
 }
+
+.principal-left img {
+    width: 80%;
+    height: 80%;
+}
 .principal-left img {
     width: 60px;
     height: 60px;
