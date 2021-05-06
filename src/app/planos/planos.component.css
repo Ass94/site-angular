@@ -1,0 +1,81 @@
+.principal {
+    background-color: #FF7602;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10%;
+}
+
+.principal-descricao {
+    text-align: center;
+}
+
+.principal-titulo {
+    font-size: 2.3rem;
+    color: white;
+    margin-top: 15%;
+    
+}
+
+.principal-titulo span {
+    text-align: center;
+}
+
+.principal-texto {
+    color: white;
+}
+
+.principal-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    background-color: white;
+    border-radius: 20px;
+}
+.principal-conteudo img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5%;
+}
+
+.principal-conteudo-left {
+    text-align: left;
+    margin-left: 3%;
+}
+.principal-conteudo-left img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5%;
+}
+
+.span-basico {
+    font-size: 2.3rem;
+    margin-left: 5%;
+}
+
+.principal-conteudo-left hr {
+    width: 90%;
+    border: solid 2px #FF7602;;
+}
+
+.span-laranja {
+    color: #FF7602;
+    font-size: 2.3rem;
+}
+
+.p-normal {
+    font-size: 0.9rem;
+}
+
+.principal-conteudo-middle hr {
+    width: 90%;
+    border: solid 2px #0046F0;
+}
+
+.span-azul {
+    color: #0046F0;
+    font-size: 2.3rem;
+}
+
+.principal-conteudo-rigth hr {
+    width: 90%;
+    border: solid 2px #FF7602;;
+}
+
