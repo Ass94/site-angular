@@ -1,0 +1,31 @@
+.sobre-principal {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobre-left img {
+    width: 100%;
+}
+
+.sobre-rigth {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.sobre-rigth span {
+    font-size: 2rem;
+}
+
+.span1 {
+    border-bottom: solid 4px #FF7602;;
+}
+
+.span2 {
+    border-bottom: solid 4px blue;
+}
+
+.sobre-rigth p {
+    margin-top: 20px;
+}
+

@@ -29,6 +29,7 @@
 .central span {
     font-size: 1.4rem;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .central img {
@@ -115,4 +116,5 @@
     text-decoration: none;
     color: black;
     font-weight: 500;
+    white-space: nowrap;
 }
