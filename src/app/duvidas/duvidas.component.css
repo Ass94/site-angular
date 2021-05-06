@@ -1,6 +1,6 @@
 .principal {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
 }
 
 .principal-left {
@@ -8,7 +8,7 @@
     margin-top: 10%;
 }
 
-.principal-left img {
+.principal-rigth img {
     width: 80%;
     height: 80%;
 }
