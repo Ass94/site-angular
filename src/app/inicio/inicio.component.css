@@ -13,12 +13,13 @@
 
 .suporte {
     display: grid;
-    grid-template-columns: 8% 50% 32%;
+    grid-template-columns: 8% 45% 47%;
     background-color: #0046F0;
 }
 
 .suporte-text {
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .suporte-text span {
