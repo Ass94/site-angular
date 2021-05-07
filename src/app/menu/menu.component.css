@@ -1,3 +1,8 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
 .navegacao {
     display: grid;
     grid-template-columns: 20% 20% 25% 4% 7% 15% 4% 4%;
@@ -118,3 +123,4 @@
     font-weight: 500;
     white-space: nowrap;
 }
+
