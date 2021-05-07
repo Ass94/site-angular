@@ -1,7 +1,6 @@
 .navegacao {
     display: grid;
     grid-template-columns: 20% 20% 25% 4% 7% 15% 4% 4%;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 60px;
     margin-top: 10px;

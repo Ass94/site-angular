@@ -1,0 +1,12 @@
+.footer {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: black;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+.footer span {
+    color: white;
+}
