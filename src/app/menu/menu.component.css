@@ -120,7 +120,7 @@
 }
 .menu-principal-bottom {
     display: grid;
-    grid-template-columns: 12% 12% 12% 19% 12% 19%;
+    grid-template-columns: 12% 12% 12% 22% 12% 19%;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
@@ -128,8 +128,8 @@
 
 .menu-principal-bottom a {
     text-decoration: none;
-    color: black;
-    font-weight: 600;
+    color: #3C3C3C;
+    font-weight: 550;
     white-space: nowrap;
     font-size: 1.2;
 }
