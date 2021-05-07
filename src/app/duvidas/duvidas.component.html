@@ -2,8 +2,37 @@
 <div class="principal" id="duvidas">
 
     <div class="principal-left">
-        <img src="https://dige-site1-imagens.s3-sa-east-1.amazonaws.com/icones/help.svg" alt="">
-        <span>Dúvidas Frequentes</span>
+
+        <div class="principal-left-top">
+            <div class="principal-left-top-img">
+                <img src="https://dige-site1-imagens.s3-sa-east-1.amazonaws.com/icones/help.svg" alt="">
+            </div>
+    
+            <div class="principal-left-top-span">
+                <span>Dúvidas<br>Frequentes</span>
+            </div>
+        </div>
+
+        <div class="principal-left-bottom">
+            <ul  class="list-duvidas">
+                <li>
+                    <img (click)="exibirConteudop1()" src="https://dige-site1-imagens.s3-sa-east-1.amazonaws.com/icones/botao-de-simbolo-de-mais.svg">
+                    <span><strong>COMO FAÇO PARA CONTRATAR A INTERNET FIBRA ÓPTICA?</strong></span>
+                    <p *ngIf="exibir1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </li>
+                <li>
+                    <img (click)="exibirConteudop2()" src="https://dige-site1-imagens.s3-sa-east-1.amazonaws.com/icones/botao-de-simbolo-de-mais.svg">
+                    <span><strong>COMO FAÇO PARA CONTRATAR A INTERNET FIBRA ÓPTICA?</strong></span>
+                    <p *ngIf="exibir2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </li>
+                <li>
+                    <img (click)="exibirConteudop3()" src="https://dige-site1-imagens.s3-sa-east-1.amazonaws.com/icones/botao-de-simbolo-de-mais.svg">
+                    <span><strong>COMO FAÇO PARA CONTRATAR A INTERNET FIBRA ÓPTICA?</strong></span>
+                    <p *ngIf="exibir3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </li>
+            </ul>
+        </div>
+  
     </div>
 
     <div class="principal-rigth">
