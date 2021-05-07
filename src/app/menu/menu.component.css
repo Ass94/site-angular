@@ -89,10 +89,6 @@
     font-size: 0.6rem;
 }
 
-.cliente {
-    border: solid 1px black;
-}
-
 .cliente button {
     border-radius: 20px;
     padding: 3px 15px;
