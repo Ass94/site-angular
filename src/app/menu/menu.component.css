@@ -115,6 +115,9 @@
     height: 20px;
 }
 
+.facebook {
+    margin-right: 6%;
+}
 .menu-principal-bottom {
     display: grid;
     grid-template-columns: 12% 12% 12% 19% 12% 19%;
