@@ -20,14 +20,18 @@
 
 .menu-principal-top {
     display: grid;
-    grid-template-columns: 16% 25% 15% 12% 10%;
+    grid-template-columns: 20% 30% 15% 12% 23%;
     border-bottom: solid 1px #D3D3D3;
     margin-top: 1%; 
+    height: 40px;
 }
 
 .central {
     margin-left: 5%;
+    height: 40px;
+    width: 80%;
 }
+
 .central-conteudo {
     display: inline-block;
 }
@@ -39,6 +43,10 @@
 
 .central-conteudo span {
     font-weight: 600;
+}
+
+.buscar {
+    height: 40px;
 }
 
 .buscar-conteudo {
@@ -53,8 +61,8 @@
 }
 
 .buscar-conteudo img {
-    width: 8%;
-    height: 8%;
+    width: 7%;
+    height: 7%;
     border-left: solid 1px #D3D3D3;
     float: right;
     padding: 1%;
@@ -71,8 +79,8 @@
 
 
 .location-conteudo img {
-    width: 13%;
-    height: 13%;
+    width: 10%;
+    height: 10%;
 }
 
 .location-conteudo span {
@@ -98,8 +106,8 @@
 }
 
 .icon-facebook img {
-    width: 35%;
-    height: 35%;
+    width: 22%;
+    height: 22%;
 }
 
 .menu-principal-bottom {
