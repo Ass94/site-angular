@@ -1,120 +1,120 @@
-.navegacao {
+.menu {
     display: grid;
-    grid-template-columns: 20% 20% 25% 4% 7% 15% 4% 4%;
+    grid-template-columns: 20% 80%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 60px;
-    margin-top: 10px;
-
 }
 
 .logo {
-   display: grid;
-   grid-template-columns: 5%;
-   border-right: solid 1px #D3D3D3;
+    border-right: solid 1px #D3D3D3;
 }
+
 .logo img {
-    width: 220px;
-    height: 60px;
+    width: 80%;
+    height: 80%;
+}
+
+.menu-principal {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.menu-principal-top {
+    display: grid;
+    grid-template-columns: 16% 25% 15% 12% 10%;
+    border-bottom: solid 1px #D3D3D3;
+    margin-top: 1%; 
 }
 
 .central {
-    display: grid;
-    margin-left: 5px;
-    margin-right: 0px;
-   
-    /*grid-template-columns: 25% 30% 5% 15% 20% 5% 5%;*/
+    margin-left: 5%;
+}
+.central-conteudo {
+    display: inline-block;
 }
 
-.central span {
-    font-size: 1.4rem;
+.central-conteudo img {
+    width: 5%;
+    height: 5%;
+}
+
+.central-conteudo span {
+    font-weight: 600;
+}
+
+.buscar-conteudo {
+    border: solid 1px #D3D3D3;
+    border-radius: 20px;
+}
+
+.buscar-conteudo input {
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+}
+
+.buscar-conteudo img {
+    width: 8%;
+    height: 8%;
+    border-left: solid 1px #D3D3D3;
+    float: right;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+.location {
+    margin-left: 2%;
+}
+
+.location-conteudo {
+    display: inline-block;
+}
+
+
+.location-conteudo img {
+    width: 13%;
+    height: 13%;
+}
+
+.location-conteudo span {
+    margin-left: 2%;
+    font-size: 0.6rem;
+}
+
+
+
+.cliente button {
+    border-radius: 20px;
+    padding: 3px 15px;
+    padding-bottom: 5px;
+    border: none;
+    background-color: #FF7602;
+    color: white;
+    font-weight: 600;
+    margin-left: 4%;
+}
+
+.icon-facebook {
+    display: inline-block;
+}
+
+.icon-facebook img {
+    width: 35%;
+    height: 35%;
+}
+
+.menu-principal-bottom {
+    display: grid;
+    grid-template-columns: 12% 12% 12% 19% 12% 19%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.menu-principal-bottom a {
+    text-decoration: none;
+    color: black;
     font-weight: 600;
     white-space: nowrap;
 }
 
-.central img {
-    width: 20px;
-    height: 16px;
- 
-}
-
-.buscar {
-    display: grid;
-    margin-left: 5px;
-}
-
-.buscar input {
-    border: solid 1px #D3D3D3;
-    border-radius: 30px;
-    height: 25px;
-    margin-top: 5px;
-}
-
-.location {
-    display: grid;
-}
-
-.location img {
-    width: 30px;
-    height: 20px;
-    margin-top: 5px;
-}
-
-.location-text {
-    display: grid;
-}
-
-.location-text span {
-    font-size: 8pt;
-}
-
-.button-area-cliente {
-    display: grid;
-}
-
-.button-area-cliente a {
-    background-color: #FF7602;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-size: 0.9rem;
-    width: 140px;
-    height: 30px;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.icon-facebook {
-    display: grid;
-}
-
-.icon-facebook img {
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-}
-
-.icon-instagram {
-    display: grid;
-}
-.icon-instagram img {
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-}
-
-.navegacao-items {
-    display: grid;
-    grid-template-columns: 12% 12% 12% 19% 12% 19%;
-    margin-left: 350px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-
-.navegacao-items a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    white-space: nowrap;
-}
 
