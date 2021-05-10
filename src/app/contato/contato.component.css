@@ -75,7 +75,7 @@
 
 .contato-bottom {
     display: grid;
-    grid-template-columns: 20% 25% 33%;
+    grid-template-columns: 20% 30% 50%;
     margin-bottom: 5%;
     margin-left: 5%;
 }
@@ -111,12 +111,12 @@
 }
 
 .contato-bottom-middle-img img {
-    width: 100%;
+    width: 90%;
     height: 50%;
 }
 
 .contato-bottom-middle-span {
-    margin-top: 7%;
+    margin-top: 5%;
     
 }
 .contato-bottom-middle-span span {
@@ -129,8 +129,8 @@
     font-size: 8pt;
 }
 
-.contato-bottom-rigth {
-    margin-top: 8%;
+.contato-bottom-rigth { 
+    width: 80%;
 }
 
 .button-enviar {
@@ -139,10 +139,12 @@
     padding: 5px 10px;
     margin-bottom: 4%;
     margin-left: 4%;
+    margin-top: 7%;
     border: solid 2px #FF7602;
     color: white;
     font-weight: 600;
     font-size: 1.2rem;
+    white-space: nowrap;
 }
 
 .button-enviar img {
