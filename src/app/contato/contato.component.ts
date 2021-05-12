@@ -11,6 +11,8 @@ export class ContatoComponent implements OnInit {
 
   cliente: Cliente = new Cliente();
 
+  exibir: boolean = false;
+
   constructor(private service: ClienteService) { }
 
   ngOnInit(): void {
