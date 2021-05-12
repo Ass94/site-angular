@@ -1,3 +1,5 @@
+import { ClienteService } from './../service/cliente.service';
+import { Cliente } from './../model/cliente';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContatoComponent implements OnInit {
 
-  constructor() { }
+  cliente: Cliente = new Cliente();
+
+  constructor(private service: ClienteService) { }
 
   ngOnInit(): void {
+  }
+
+  enviar(): void {
+    this.service.insert(this.cliente)
+    .subscribe(() => {
+      alert('Solicitação enviada com sucesso!');
+      this.cliente = new Cliente();
+    })
   }
 
 }
