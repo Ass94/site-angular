@@ -2,14 +2,18 @@
     background-color: #FF7602;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .principal-descricao {
     text-align: center;
 }
 
 .principal-titulo {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     color: white;
     margin-top: 12%;
     
@@ -22,7 +26,7 @@
 .principal-texto {
     color: white;
     margin-top: 1%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .principal-conteudo {
@@ -30,6 +34,9 @@
     grid-template-columns: repeat(3, 33%);
     background-color: white;
     border-radius: 20px;
+    width: 80%;
+    padding: 2%;
+    padding-left: 6%;
 }
 .principal-conteudo img {
     width: 40px;
@@ -39,8 +46,10 @@
 
 .principal-conteudo-left {
     text-align: left;
-    margin-left: 3%;
+    margin-left: 4%;
+    padding-top: 4%;
 }
+
 .principal-conteudo-left img {
     width: 40px;
     height: 40px;
@@ -53,8 +62,14 @@
 }
 
 .principal-conteudo-left hr {
-    width: 90%;
-    border: solid 2px #FF7602;;
+    text-align: left;
+    margin-left: 0%;
+    width: 40%;
+    border: solid 2px #FF7602;
+}
+
+ul {
+    padding-left: 4%;
 }
 
 .span-laranja {
@@ -66,8 +81,14 @@
     font-size: 0.9rem;
 }
 
+.principal-conteudo-middle {
+    padding-top: 4%;
+}
+
 .principal-conteudo-middle hr {
-    width: 90%;
+    text-align: left;
+    margin-left: 0%;
+    width: 40%;
     border: solid 2px #0046F0;
 }
 
@@ -76,8 +97,14 @@
     font-size: 2.3rem;
 }
 
+.principal-conteudo-rigth {
+    padding-top: 4%;
+}
+
 .principal-conteudo-rigth hr {
-    width: 90%;
+    text-align: left;
+    margin-left: 0%;
+    width: 40%;
     border: solid 2px #FF7602;
 }
 
@@ -86,7 +113,7 @@
     border-radius: 20px;
     padding: 5px 10px;
     margin-bottom: 4%;
-    margin-left: 4%;
+    margin-left: 0%;
     border: solid 2px #FF7602;
     font-weight: 600;
 }
@@ -102,7 +129,7 @@
     border-radius: 20px;
     padding: 5px 10px;
     margin-bottom: 4%;
-    margin-left: 4%;
+    margin-left: 0%;
     border: solid 2px #0046F0;
     color: white;
     font-weight: 600;
