@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2%;
 }
 
 .sobre-left img {
@@ -20,12 +21,13 @@
 }
 
 .sobre-rigth-top span {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .sobre-rigth-top p {
     margin-top: 20px;
     text-align: justify;
+    font-size: 1.2rem;
 }
 
 .span1 {
@@ -47,9 +49,9 @@
 }
 
 .sobre-rigth-middle-left img {
-    width: 100px;
-    height: 100px;
-    margin-top: 18%;
+    width: 90%;
+    height: 90%;
+    margin-top: 8%;
     margin-left: 5%;
     margin-right: 3%;
 }
@@ -71,15 +73,17 @@
 .sobre-rigth-bottom-top button {
     background-color: #0046F0;
     border: white;
-    border-radius: 20px;
+    border-radius: 100px;
     color: white;
     font-size: 1.8rem;
     padding: 10px 30px; 
+    width: 100%;
 }
 
 .sobre-rigth-bottom-top p {
     font-size: 0.9rem;
     margin-left: 15px;
+    text-align: center;
 }
 
 .sobre-rigth-bottom-bottom  {

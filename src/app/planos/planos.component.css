@@ -64,7 +64,7 @@
 .principal-conteudo-left hr {
     text-align: left;
     margin-left: 0%;
-    width: 40%;
+    width: 65%;
     border: solid 2px #FF7602;
 }
 
@@ -74,7 +74,7 @@ ul {
 
 .span-laranja {
     color: #FF7602;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 .p-normal {
@@ -88,13 +88,13 @@ ul {
 .principal-conteudo-middle hr {
     text-align: left;
     margin-left: 0%;
-    width: 40%;
+    width: 65%;
     border: solid 2px #0046F0;
 }
 
 .span-azul {
     color: #0046F0;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 .principal-conteudo-rigth {
@@ -104,7 +104,7 @@ ul {
 .principal-conteudo-rigth hr {
     text-align: left;
     margin-left: 0%;
-    width: 40%;
+    width: 65%;
     border: solid 2px #FF7602;
 }
 
